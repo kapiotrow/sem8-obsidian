@@ -1,5 +1,7 @@
 ### Omów budowę części procesorowej układu ARM - APU
 **APU** (Accelerated Processing Unit) - zintegrowany układ scalony integrujący CPU, GPU, rzadziej także NPU, DSP.
+<img src="Pasted image 20250618102900.png" alt="Image" width="500">
+
 Zalety:
 * wydajność
 * niski pobór mocy
