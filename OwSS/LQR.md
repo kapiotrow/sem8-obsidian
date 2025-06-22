@@ -17,7 +17,7 @@ Należy sprawdzić warunki **sterowalności i obserwowalności** (do istnienia r
 $$
 rank([B \; AB]) = n
 $$
-	**Wykrywalność:**
+	**Obserwowalność:**
 $$
 rank(\begin{bmatrix} W \\ WA \end{bmatrix}) = n
 $$
