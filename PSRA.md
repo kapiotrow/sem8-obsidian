@@ -1,5 +1,7 @@
 ### Omów budowę części procesorowej układu ARM - APU
 **APU** (Accelerated Processing Unit) - zintegrowany układ scalony integrujący CPU, GPU, rzadziej także NPU, DSP.
+<img src="Pasted image 20250618102900.png" alt="Image" width="500">
+
 Zalety:
 * wydajność
 * niski pobór mocy
@@ -56,6 +58,7 @@ Wady:
 * dużo IO
 * deterministyczne opóźnienie
 * trudniejszy w projektowaniu, implementacji, debuggowaniu
+* trudność implementacji algorytmów bardzo zależnych od danych
 * niższy pobór mocy
 **CPU:**
 * sekwencyjne przetwarzanie danych
@@ -77,6 +80,7 @@ Przede wszystkim **AXI** (Advanced eXtensible Interface) - standard w komunikacj
 * w pełnej wersji obsługuje **pipelining** (może wysłać wiele instrukcji zanim wróci odpowiedź), max szerokość szyny danych to 1024 bity, 5 kanałów
 * w wersji Lite ma cztery kanały, jest prostszy, instrukcje stanowią podzbiór pełnej wersji
 * w wersji Stream nie ma burstów, dane są pakowane w pakiety, ramki i streamy, nie ma ograniczenia na długość przesyłanych danych (przesył może być ciągły); nie ma sygnałów adresowych
+* AXI DMA Controller
 
 ### Omów różnice pomiędzy Zynq, Zynq US+ oraz Veral/ACAP
 **Zynq:**
