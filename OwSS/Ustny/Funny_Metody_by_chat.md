@@ -10,11 +10,11 @@ $$ u(t) \in \{u_{\min}, u_{\max}\}$$ Sterowanie tego typu nazywa się **brzegowy
 $$
 \dot{x}(t) = f_0(x(t)) + f_1(x(t))u(t), \quad x(0) = x_0
 $$
-Funkcjaprzełączająca: Funkcja przełączająca:
+Funkcja przełączająca:
 $$
 \varphi(t) = \psi^T(t) f_1(x(t))
 $$
-Warunekmaksimum: Warunek maksimum:
+Warunek maksimum:
 $$
 u(t) = \begin{cases}  
 u_{\max} & \text{gdy } \varphi(t) < 0 \  
@@ -31,7 +31,7 @@ u_{\min} & \text{gdy } \varphi(t) > 0
         
 2. **Optymalizacja**:
     
-    - dla danego $M$ minimalizuj wskaźnik Σ(u0,τ1,…,τM)\Sigma(u_0, \tau_1, \dots, \tau_M) np. metodą BFGS.
+    - dla danego $M$ minimalizuj wskaźnik $$Σ(u0,τ1,…,τM)\Sigma(u_0, \tau_1, \dots, \tau_M) np. metodą BFGS.$$
         
     - wylicz gradient:
         $$
