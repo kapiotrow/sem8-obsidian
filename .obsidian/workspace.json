@@ -8,49 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "622d95cca105516a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PSRA.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PSRA"
-            }
-          },
-          {
             "id": "5635497835751795",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OwSS/LQR.md",
-                "mode": "source",
+                "file": "OwSS/Ustny/Teoria by chat.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LQR"
-            }
-          },
-          {
-            "id": "68adf0d240f769dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OwSS/Zasada maksimum Pontriagina.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Zasada maksimum Pontriagina"
+              "title": "Teoria by chat"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -192,15 +163,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "68adf0d240f769dc",
+  "active": "0651ad8fc821139c",
   "lastOpenFiles": [
     "OwSS/LQR.md",
+    "OwSS/Ustny/Teoria by chat.md",
     "OwSS/Zasada maksimum Pontriagina.md",
+    "OwSS/Ustny",
     "OwSS/T_min.md",
+    "PSRA.md",
     "Pasted image 20250618102900.png",
     "OWSS.md",
     "OwSS",
-    "PSRA.md",
     "ML/Scrapping/U-Net Segmentation.md",
     "ML/Scrapping/Transformers.md",
     "ML/Scrapping/Transfer Learning.md",
@@ -229,7 +202,6 @@
     "ML",
     "ZAW/10. Detekcja sylwetek ludzkich.md",
     "ZAW/9. Termowizja.md",
-    "ZAW/8. Uogólniona transformata Hough'a.md",
     "ASW/Pasted image 20250524150414.png",
     "ZAW",
     "ASW/Pasted image 20250524162802.png",
